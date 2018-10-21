@@ -102,7 +102,6 @@ int _stdcall WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR lpCmd, int nCmd
 
 			for (;;) {
 				Sleep(10000);
-
 			}
 
 			wchar_t *fn = (wchar_t *)LocalAlloc(LMEM_ZEROINIT, 8192 * 2);
